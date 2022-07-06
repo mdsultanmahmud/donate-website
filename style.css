@@ -6,7 +6,7 @@
 body{
     font-family: 'Rubik', sans-serif;
 }
-.header{
+#header{
     background-image: url(images/donate.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -51,7 +51,7 @@ body{
 
 }
 
-.donate{
+#donate{
     padding: 20px;
     text-align: center;
     margin: 50px auto;
@@ -88,7 +88,7 @@ body{
     border: 2px solid red;
 }
 
-.donate input{
+#donate input{
     width: 70%;
     border: none;
     outline: none;
@@ -101,7 +101,7 @@ body{
     height: 40px;
     font-weight: 700;
 }
-.donate-plan{
+#donate-plan{
     padding: 20px;
     margin: 20px auto;
     width: 80%;
@@ -142,7 +142,7 @@ body{
     padding: 0;
 }
 
-.help-children{
+#help-children{
     padding: 20px;
     margin: 30px auto;
 }
@@ -161,7 +161,7 @@ body{
 .children-blog p{
     text-align: justify;
 }
-.help-children .btn{
+#help-children .btn{
     font-size: 14px;
     font-weight: 900;
     margin: 12px auto;
@@ -171,13 +171,13 @@ body{
     text-align: center;
     text-transform: uppercase;
 }
-.contact{
+#contact{
     margin: 20px auto;
     width: 70%;
     padding: 20px;
     
 }
-.contact form{
+#contact form{
     width: 80%;
     margin: 20px auto;
     padding:60px 30px;
@@ -185,7 +185,7 @@ body{
     text-align: center;
     border-radius: 10px;
 }
-.contact input{
+#contact input{
     width: 50%;
     height: 40px;
     border: none;
@@ -193,15 +193,19 @@ body{
     border-radius: 10px 0 0 10px;
     margin-right: 0;
     padding: 15px;
+    outline: none;
 }
-.contact .btn{
+#contact ::placeholder{
+    color: grey;
+}
+#contact .btn{
     font-size: 14px;
     border: none;
     margin-left:-4px;
     border-radius: 0 10px 10px 0;
 }
 
-.footer{
+#footer{
     background-color: black;
     padding: 40px;
     margin-top: 40px;
